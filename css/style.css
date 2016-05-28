@@ -60,7 +60,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 bottom;
-	height: 45.938rem;
+	height: 60rem;
 	overflow: auto;
 }
 
@@ -76,9 +76,9 @@ html {
 
 .masthead h1,
 .masthead h3 {
-	color: #2BAFDA;
+	color: #F4F2F4;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 700;
 	margin-bottom: 0rem;
 }
 
@@ -90,16 +90,84 @@ html {
 
 button {
 	text-align: center;
-	background-color: #f15a29;
-	border-color: #f15a29;
+	background-color: #2EA7D9;
+	border-color: #2EA7D9;
 	border-style: none;
-	border-radius: 4px;
-	padding: 1rem 1.5rem;
-	color: white;
+	border-radius: 3px;
+	padding: 1rem 2rem;
+	color: #F4F2F4;
 	font-size: 1.125rem;
 }
 
 button:hover {
-	background-color: #762208;
+	background-color: #010F27;
 	cursor: pointer;
+}
+
+.social {
+	border: 2px solid orange;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	height: 12rem;
+	margin-bottom: 5rem;
+}
+
+
+.footer-left {
+	border: 2px solid black;
+	float: left;
+	position: relative;
+	width: 50%;
+	text-align: left;
+}
+
+
+.social h5 {
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.icons {
+	padding-right: 2.5rem;
+	text-align: left;
+}
+
+.icons li:hover {
+	cursor: pointer;
+}
+
+.icons li {
+	display: inline-block;
+	margin: 0.5rem;	
+}
+
+.social .soundcloud {
+	color: #FF6300;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .youtube {
+	color: #CC181E;
+}
+
+.social span {
+	font-weight: 200;
+	color: black;
+	font-size: 0.8rem;
+}
+
+.footer-right {
+	border: 2px solid black;
+	float: right;
+	position: relative;
+	width: 50%;
+	text-align: right;
 }
