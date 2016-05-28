@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+ }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.top-navigation {
+	background-color: #fff;
+	height: 4.375em;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.content {
+	width: 60%;
+	height: 4.375em;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.logo {
+	margin-top: 0.7em;
+	height: 3em;
+}
+
+
+.links {
+	float: right;
+	color: #010F27;
+	margin-top: 1.4em;
+	font-size: 1.04em;
+	letter-spacing: 0.03em;
+	font-weight: 800;
+	transition: color 0.5s ease;
+}
+
+
+.links li {
+	display: inline-block;
+	margin-left: 1.5em;
+}
+
+.links > .active {
+	color: #2EA7D9;
+	font-weight: 800;
+}
+
+.links li:hover {
+	color: #2EA7D9;
+	cursor: pointer;
+}
+
+.masthead {
+	background-image: url(../images/space-masthead1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 bottom;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.masthead h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.masthead h3 {
+	font-size: 1.7rem;
+	margin-top: 1rem;
+}
+
+.masthead h1,
+.masthead h3 {
+	color: #2BAFDA;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 0rem;
+}
+
+.button {
+	color: white;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+}
+
+button:hover {
+	background-color: #762208;
+	cursor: pointer;
+}
